@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="drawer"></div>
+    <nav>
+        <div class="logo">iAbidan</div>
+        <ul>
+            <li>Recent</li>
+            <li>Settings</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <main>
+        <div>
+            <input type="text" placeholder="Search" id="input">
+            <div id="search-result"></div>
+        </div>
+        <div class="humburger"></div>
+        <div class="result">
+            <div class="result-header"></div>
+            <hr class="result-hr">
+            <div class="result-body"></div>
+        </div>
+
+        <!--About Page-->
+        <div class="about">
+            <div class="about-title">About</div>
+            <hr class="about-hr myhr">
+            <h1>iAbidan<span>Version 1.0</span></h1>
+            <p><span>iAbidan</span> is English to Zo Lai dictionary. This dictionary provides definition with examples, synonyms, antonyms for your devices. This Dictionary is a great resource to anyone who wants to get all in one.</p>
+            <hr class="distribution-hr myhr">
+            <div class="distribution">Developed by <a href="#">Sing Tuang</a></div>
+        </div>
+
+        <!--Setting Page-->
+        <div class="setting">
+            <div class="setting-title">Settings</div>
+            <hr class="setting-hr myhr">
+            <div class="setting-box">
+                <div class="setting-box-title">Auto Complete</div>
+                <div class="setting-box-autocomplete">
+                    <div>
+                        <div>Auto Complete</div>
+                        <div class="bottom">Show suggestion</div>
+                    </div>
+                    <input type="checkbox">
+                </div>
+            </div>
+            <hr class="result-hr">
+            <div class="setting-box">
+                <div class="setting-box-title">Max suggestion</div>
+                <div class="suggestion-bottom">Maximum number of suggestion</div>
+                <input type="range" min="0" max="10">
+            </div>
+            <hr class="result-hr">
+            <div class="setting-box">
+                <div class="setting-box-title">Acknowledgement</div>
+                <div id="acknowledgement">Acknowledgement</div>
+            </div>
+            <hr class="setting-bottom-hr myhr">
+        </div>
+
+        <!--Recent-->
+        <div class="recent">
+            <div class="recent-title">Recent</div>
+            <hr class="recent-hr myhr">
+            <div id="search-recent">
+            </div>
+            <div id="edit-button"></div>
+            <hr class="recent-bottom-hr myhr">
+        </div>
+
+        <!--acknowledgement-->
+        <div class="acknowledgement">
+            <div class="ack-title">Acknowledgement</div>
+            <hr class="recent-hr myhr">
+            <div class="ack-txt"><h2>MIT License</h2>
+
+                <p>Copyright (c) 2021 Tuangpi</p>
+                
+                <p>Permission is hereby granted, free of charge, to any person obtaining a copy
+                of this software and associated documentation files (the "Software"), to deal
+                in the Software without restriction, including without limitation the rights
+                to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                copies of the Software, and to permit persons to whom the Software is
+                furnished to do so, subject to the following conditions:</p>
+                
+                <p>The above copyright notice and this permission notice shall be included in all
+                    copies or substantial portions of the Software.</p>
+                <p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+                    SOFTWARE.</p>
+                </div>
+            <hr class="recent-bottom-hr myhr">
+        </div>
+    </main>
+</body>
+</html>
