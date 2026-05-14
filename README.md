@@ -27,6 +27,10 @@ No build tools or frameworks are required.
 - `main.js` - dictionary data and app logic
 - `icon-hamburger.svg` - mobile menu icon
 
+## Live Demo
+
+[![Live Demo](https://img.shields.io/badge/demo-live-green)](https://my-dictionary.singkhantuang97.workers.dev/)
+
 ## How to Run
 
 1. Clone or download the project.
