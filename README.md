@@ -29,7 +29,7 @@ No build tools or frameworks are required.
 
 ## Live Demo
 
-[![Live Demo](https://img.shields.io/badge/demo-live-green)](https://my-dictionary.singkhantuang97.workers.dev/)
+[[Live Demo] (https://img.shields.io/badge/demo-live-green)](https://my-dictionary.singkhantuang97.workers.dev/)
 
 ## How to Run
 
